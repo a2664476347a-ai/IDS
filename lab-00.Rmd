@@ -17,15 +17,15 @@ We set up the data frame. Edit the data below to include information about your 
 
 ```{r setup-tibble}
 team_data <- tibble(
-  name = c("Junyi", "member 1", "member 2", 
-           "member 3", "member 4"),
-  github_username = c("Junyi", "username 1", "username 2", 
-                      "username 3", "username 4"), 
-  colour = c("blue", "colour 1", "colour 2", 
-             "colour 3", "colour 4"),
-  hobby = c("plsying chess", "hobby 1", "hobby 2", 
-            "hobby 3", "hobby 4"),
-  favourite_number = c(11, NA, NA, NA, NA)
+  name = c("Junyi", "A", "b", 
+           "C", "D"),
+  github_username = c("Junyi", "A", "B", 
+                      "C", "D"), 
+  colour = c("blue", "pink", "green", 
+             "snow3", "salmon4"),
+  hobby = c("plsying chess", "A", "B", 
+            "C", "D"),
+  favourite_number = c(11, 2, 3, 5, 7)
   )
 
 team_data
